@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "c2f1bbf6-5363-45b1-ba4b-d6c2d2bfb66c",
+    "appType": "app",
+    "appDisplayName": "heart-aptic",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "heart-aptic"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
